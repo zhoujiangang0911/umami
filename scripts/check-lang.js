@@ -5,14 +5,14 @@ const chalk = require('chalk');
 const messages = require('../src/lang/en-US.json');
 const ignore = require('../lang-ignore.json');
 
-const dir = path.resolve(__dirname, '../lang');
+const dir = path.resolve(__dirname, '../src/lang');
 const files = fs.readdirSync(dir);
 const keys = Object.keys(messages).sort();
 const filter = process.argv?.[2];
 
 files.forEach(file => {
   if (file !== 'en-US.json') {
-    const lang = require(`../lang/${file}`);
+    const lang = require(`../src/lang/${file}`);
     const id = file.replace('.json', '');
 
     if (filter && filter !== id) {

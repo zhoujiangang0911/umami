@@ -1,6 +1,7 @@
 {
   "label.access-code": "访问代码",
   "label.actions": "用户行为",
+  "label.test": "测试",
   "label.activity-log": "活动日志",
   "label.add": "添加",
   "label.add-description": "添加描述",
@@ -100,7 +101,7 @@
   "label.name": "名字",
   "label.new-password": "新密码",
   "label.none": "无",
-  "label.os": "OS",
+  "label.os": "操作系统",
   "label.overview": "概览",
   "label.owner": "所有者",
   "label.page-of": "总{total}中的第{current}页",
